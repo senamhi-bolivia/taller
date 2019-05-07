@@ -16,7 +16,7 @@ Button myBtn2(3); // define the button
 volatile int velocidad = 20;
 // Constantes de velocidad máxima, mínima y cuanto aumenta
 const int maxima = 1000;
-const int minima = 20;
+const int minima = 10;
 const int aumenta = 20;
  
 // Array con los números de los pines donde están conectados

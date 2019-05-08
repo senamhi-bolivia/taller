@@ -68,7 +68,7 @@ calibration::Calibration COCal;
 void setup ()
 
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
   Serial.println("Hello");
 
   NO2Cal.setCalibrationPoints(no2resistences, no2concentrations, no2numPoints);
@@ -103,4 +103,6 @@ void loop ()
   }
   
   delay(10000);
+  Serial.println("nueva calibration");
+
 }
